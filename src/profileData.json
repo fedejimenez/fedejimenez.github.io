@@ -3,7 +3,8 @@
 		"firstName": "Federico",
 		"lastName": " Jiménez",
 		"phoneNumber": "+91-0123456789",
-		"bio": "I am an opensource contributor and have contributed to Zulip, Hasura, Fossasia, Publiclab and many other projects. My tech stack includes Python and Javascript. Python for server side and scripting and Javascript for the frontend. I use Django framework for the server side development and React for the frontend development. I have also worked with GraphQL. I am a GitHub Campus Expert at my insititute where I am responsible for building on campus community. I am the lead organiser of Hack In The North Hackathon and the cofounder of Pragma Conference held at IIIT Allahabad.",
+		"country": "Argentina",
+		"bio": "With a Bachelor’s degree in Electronics Engineering, I began coding more than ten years ago, first involving micro-controllers and electronics software, then as a hobby and finally, I decided to make it my primarily profession two years ago. Since then I’m focused on improving  my skills  and finding  interesting projects  and people  to work with.",
     "email": "fedeejimenez@gmail.com",
     "linkedin": "https://www.linkedin.com/in/federico-jim%C3%A9nez-26a54950/",
     "github": "https://github.com/fedejimenez",
@@ -11,33 +12,62 @@
 	},
 	"experience": [
 		{
-				"position": "GitHub Campus Expert",
-				"organization": "GitHub",
-				"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
-				"fromDate": "August 2018",
+				"position": "Software Developer",
+				"organization": "SHIP NOW SA",
+				"location": "Buenos Aires, Argentina",
+				"aboutWork": "Part of the developer’s team, working remotely since beginning of August. The company provides technological solutions for the last mile for e-commerce’s stores ",
+				"tasks":	[{
+						"task": "Migration of the main apps from Heroku to AWS, obtaining benefits up to 100% in response time and improving scalability."
+					},
+					{
+						"task": "Integration with external API’s mainly related to e-commerce, such as Tiendanube, Shopify, WooComerce."
+					},
+					{
+						"task": "To solve internal / external issues through JIRA’s ticketing system."
+					}
+				],
+				"fromDate": "January 2019",
 				"toDate": "Present"
 		},
 		{
-			"position": "Opensource Developer Intern",
-			"organization": "Fossasia",
-			"aboutWork": "Contributing to Fossasia's open event server and frontend as an intern. Resolved numerous bugs and added new features to the eventyay platform.",
-			"fromDate": "June 2019",
+			"position": "Instructor",
+			"organization": "Eduacion IT",
+			"location": "Buenos Aires, Argentina",
+			"aboutWork": "Part-time flexible job and working remotely from beginning of August.",
+			"tasks":	[{
+					"task": "To instruct students in several introductory IT related courses, such as: HTML5, CSS3, Javascript, Python, Arduino, Git."
+				}
+			],
+			"fromDate": "February 2019",
 			"toDate": "Present"
-		},
-		{
-			"position": "Software Developer Intern",
-			"organization": "Hasura",
-			"aboutWork": "Worked on Hasura's GraphQL engine and added new features in it.",
-			"fromDate": "December 2018",
-			"toDate": "January 2019"
 		}
 	],
 	"education": [{
-			"university": "Indian Institute of Information Technology Allahabad",
-			"degree": "Bachelor of Technology",
+			"institute": "National University of Mar del Plata",
+			"location": "Buenos Aires, Argentina",
+			"degree": "Bachelor's Degree in Electronics Engineering",
 			"gpa": "12.34",
-			"fromDate": "August 2016",
-			"toDate": "Present"
+			"extra": "Thesis: “Android App to Control A Domotic Home System”. Technologies: JAVA(Android), Objective C(Arduino), Google Voice's API, Bluetooth.",
+			"fromDate": "2004",
+			"toDate": "2014"
+		},
+		{
+			"institute": "NEXT Academy",
+			"location": "Kuala Lumpur, Malaysia",
+			"degree": "Full-Stack Web Developer (Ruby on Rails)",
+			"gpa": "12.34",
+			"extra": "Intensive 10 weeks Bootcamp covering: Javascript, Bootstrap, API’s (Google Maps, Google Voice, Facebook, Tumblr), Ruby, Ruby on Rails, Rspec, Sidekiq, Redis, Github, MySQL, PostgreSQL, Heroku.",
+			"fromDate": "2004",
+			"toDate": "2018"
+		},
+		{
+			"institute": "Eduacion IT",
+			"location": "Buenos Aires, Argentina",
+			"degree": "Full-Stack Web Developer (PHP)",
+			"gpa": "12.34",
+			"extra": "Courses for Back-end (PHP, MySQL) and Front-end (HTML5, CSS3, jQuery, Bootstrap).",
+			"fromDate": "2004",
+			"toDate": "2018"
 		}
 	],
 	"skills": [{
@@ -53,8 +83,16 @@
             "icon": "faJs"
 		},
 		{
-            "name": "React",
-            "icon": "faReact"
+            "name": "Bootstrap",
+            "icon": "faBootstrap"
+		},
+		{
+            "name": "Ruby",
+            "icon": "faRuby"
+		},
+		{
+            "name": "Ruby on Rails",
+            "icon": "faRubyOnRails"
 		},
 		{
             "name": "Nodejs",
@@ -69,8 +107,12 @@
             "icon": "faDjango"
 		},
 		{
-            "name": "Ember",
-            "icon": "faEmber"
+            "name": "AWS",
+            "icon": "faAws"
+		},
+		{
+            "name": "Heroku",
+            "icon": "faHeroku"
 		}
 	],
 	"interests": {
