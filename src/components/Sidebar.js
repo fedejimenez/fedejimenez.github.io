@@ -46,13 +46,17 @@ class Sidebar extends Component {
               Skills</Link>            
             </li>
             <li className="nav-item">
+              <Link activeClass="active" className="nav-link js-scroll-trigger" href="#projects" to="projects" spy={true} smooth={true} offset={offset} duration={duration}>
+              Projects</Link>            
+            </li>
+            <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#interests" to="interests" spy={true} smooth={true} offset={offset} duration={duration}>
               interests</Link>            
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#awards" to="awards" spy={true} smooth={true} offset={offset} duration={duration}>
               Awards</Link>            
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
