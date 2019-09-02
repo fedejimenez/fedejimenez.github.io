@@ -16,12 +16,15 @@ class Education extends Component {
             this.education.map((data, index) => (
               <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
-                  <h3 className="mb-0">{data.university}</h3>
+                  <h3 className="mb-0 d-inline">{data.institute} <p className="d-inline small"> - {data.location}</p></h3>
                   <div className="subheading mb-3">{data.degree}</div>
-                  <p>{data.gpa}</p>
+                  {/* <p>{data.gpa}</p> */}
+                  <ul>
+                    <li>{data.extra}</li>
+                  </ul>
                 </div>
                 <div className="resume-date text-md-right">
-                  <span className="text-primary">{data.fromDate} - {data.toDate}</span>
+                  <span className="text-primary">{data.toDate}</span>
                 </div>
               </div>
             ))
