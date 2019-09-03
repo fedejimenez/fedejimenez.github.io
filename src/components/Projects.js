@@ -30,16 +30,22 @@ class Projects extends Component {
          <h2 className="mb-5">Projects</h2>
             <div className="card-deck">
                 {
-                    this.projects.map((data, index) => (
-                        <div className="card" key={index}>
-                            <img className="card-img-top" src="..." alt="Card image cap"></img>
+                  this.projects.map((data, index) => (
+                      <div className={"card pulse " + "card-"+index.toString()} key={index}>
+                            <a href={data.link} class="stretched-link" target="_blank" rel="noopener noreferrer"></a>
+                            <div className="container">
+                              <img src="https://picsum.photos/500/400" alt="Avatar" className="image" />
+                              <div className="middle">
+                                <div className="text">{data.technologies}</div>
+                              </div>
+                            </div>
                             <div className="card-body">
-                                <h5 className="card-title">{data.projectTitle}</h5>
+                                <h5 className="card-title center">{data.projectTitle}</h5>
                                 <p className="card-text">{data.projectDetail} </p>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-muted">{data.technologies}</small>
-                            </div>
+                            {/* <div className="card-footer">
+                                <small className="text-muted">{data.technologies}</small>
+                            </div> */}
                         </div>
                     ))
                 }

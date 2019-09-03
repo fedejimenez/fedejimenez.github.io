@@ -116,19 +116,28 @@
 		}
 	],
 	"projects": [{
-		"projectTitle": "Cryto Currency Trading Simulator",
-		"projectDetail": "Hack 36 3rd prize winner.",
-		"technologies": "Ruby on Rails - Hosted in Heroku" 
-	},
-	{
-		"projectTitle": "Sales / Stock Manager",
+			"projectTitle": "Cryto Currency Trading Simulator",
 			"projectDetail": "Hack 36 3rd prize winner.",
-			"technologies": "PHP - Hosted in Heroku"		
+			"technologies": "Ruby on Rails - Hosted in Heroku",
+			"link": "https://cryptosimulator.herokuapp.com/" 
+		},
+		{
+			"projectTitle": "Sales / Stock Manager",
+			"projectDetail": "Hack 36 3rd prize winner.",
+			"technologies": "PHP - Hosted in Heroku",	
+			"link": "https://purchases-sales-system.herokuapp.com/" 
 		},
 		{
 			"projectTitle": "Cryto Currency Prices Search Bar",
 			"projectDetail": "Hack 36 3rd prize winner.",
-			"technologies": "ReactJS - Hosted in Heroku"		
+			"technologies": "ReactJS - Hosted in Heroku",		
+			"link": "http://crypto-react.s3-website-us-east-1.amazonaws.com/" 
+		},
+		{
+			"projectTitle": "E-commerce Store",
+			"projectDetail": "Hack 36 3rd prize winner.",
+			"technologies": "NodeJS - Hosted in Heroku",	
+			"link": "" 
 		}
 	],
 	"interests": {
