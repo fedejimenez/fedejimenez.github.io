@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +47,6 @@
     "bootstrap": "^4.0.0-beta",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
-  }
+  },
+  "homepage": "https://fedejimenez.github.io"
 }
