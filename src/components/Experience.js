@@ -17,7 +17,7 @@ class Experience extends Component {
               <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
                   <h3 className="mb-0">{exp.position}</h3>
-                  <div className="subheading mb-3">{exp.organization} -  <p className="d-inline small"> - {exp.location}</p> </div>
+                  <div className="subheading mb-3">{exp.organization} - {exp.location} </div>
                   <p>{exp.aboutWork}</p>
                   {
                     exp.tasks.map((task, j) => (
@@ -32,7 +32,7 @@ class Experience extends Component {
                   }
                 </div>
                 <div className="resume-date text-md-right">
-                  <span className="text-primary">{exp.fromDate} - {exp.toDate}</span>
+                  <span className="subheading mb-3">{exp.fromDate} - {exp.toDate}</span>
                 </div>
               </div>
             ))

@@ -27,7 +27,6 @@
   // Image transparency when hover on cards
   $('.card').mouseover(function(){
     let name = this.className.split(/\s+/).slice(-1).pop();
-    console.log(name)
     $("."+name + " > .container > .image").css({ opacity: 0.1 });
     $("."+name + " > .container > .middle").css({ opacity: 1 });
   });

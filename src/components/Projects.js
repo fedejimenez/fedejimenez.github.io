@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import image from '../assets/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAward } from "@fortawesome/free-solid-svg-icons";
 
@@ -32,9 +33,9 @@ class Projects extends Component {
                 {
                   this.projects.map((data, index) => (
                       <div className={"card pulse " + "card-"+index.toString()} key={index}>
-                            <a href={data.link} class="stretched-link" target="_blank" rel="noopener noreferrer"></a>
+                            <a href={data.link} className="stretched-link" target="_blank" rel="noopener noreferrer"></a>
                             <div className="container">
-                              <img src="https://picsum.photos/500/400" alt="Avatar" className="image" />
+                              <img src={"img/"+data.image} alt="Avatar" className="image" />
                               <div className="middle">
                                 <div className="text">{data.technologies}</div>
                               </div>
