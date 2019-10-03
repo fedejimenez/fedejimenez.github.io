@@ -4,7 +4,7 @@
 		"lastName": " Jiménez",
 		"phoneNumber": "+91-0123456789",
 		"country": "Argentina",
-		"bio": "With a Bachelor’s degree in Electronics Engineering, I began coding more than ten years ago, first involving micro-controllers and electronics software, then as a hobby and finally, I decided to make it my primarily profession two years ago. Since then I’m focused on improving  my skills  and finding  interesting projects  and people  to work with.",
+		"bio": "With a bachelor’s degree in Electronics Engineering, I began coding more than ten years ago, first involving micro-controllers and electronics software, then as a hobby. Finally, two years ago, I decided to make it my primary profession. Since then I have been focused on improving  my skills  and finding  interesting projects  and people  to work with.",
     "email": "fedeejimenez@gmail.com",
     "linkedin": "https://www.linkedin.com/in/federico-jim%C3%A9nez-26a54950/",
     "github": "https://github.com/fedejimenez",
@@ -38,7 +38,7 @@
 				"position": "Software Developer",
 				"organization": "SHIP NOW SA",
 				"location": "Buenos Aires, Argentina",
-				"aboutWork": "Part of the developer’s team, working remotely since beginning of August. The company provides technological solutions for the last mile for e-commerce’s stores ",
+				"aboutWork": "Part of the developer team. Started working remotely since beginning of August. The company provides last-mile technological solutions for e-commerce stores ",
 				"tasks":	[{
 						"task": "Migration of the main apps from Heroku to AWS, obtaining benefits up to 100% in response time and improving scalability."
 					},
@@ -46,7 +46,7 @@
 						"task": "Integration with external API’s mainly related to e-commerce, such as Tiendanube, Shopify, WooComerce."
 					},
 					{
-						"task": "To solve internal / external issues through JIRA’s ticketing system."
+						"task": "Solving internal / external issues through JIRA’s ticketing system."
 					}
 				],
 				"fromDate": "January 2019",
@@ -56,9 +56,9 @@
 			"position": "Instructor",
 			"organization": "Educacion IT",
 			"location": "Buenos Aires, Argentina",
-			"aboutWork": "Part-time flexible job and working remotely from beginning of August.",
+			"aboutWork": "Part-time flexible. Started working remotely since beginning of August.",
 			"tasks":	[{
-					"task": "To instruct students in several introductory IT related courses, such as: HTML5, CSS3, Javascript, Python, Arduino, Git."
+					"task": "Instructing students in several introductory IT related courses, such as: HTML5, CSS3, Javascript, Python, Arduino, Git."
 				}
 			],
 			"fromDate": "February 2019",
@@ -71,7 +71,7 @@
 			"location": "Kuala Lumpur, Malaysia",
 			"degree": "Full-Stack Web Developer (Ruby on Rails)",
 			"gpa": "12.34",
-			"extra": "Intensive 10 weeks Bootcamp covering: Javascript, Bootstrap, API’s (Google Maps, Google Voice, Facebook, Tumblr), Ruby, Ruby on Rails, Rspec, Sidekiq, Redis, Github, MySQL, PostgreSQL, Heroku.",
+			"extra": "Intensive 10-week Bootcamp covering: Javascript, Bootstrap, API’s (Google Maps, Google Voice, Facebook, Tumblr), Ruby, Ruby on Rails, Rspec, Sidekiq, Redis, Github, MySQL, PostgreSQL, Heroku.",
 			"fromDate": "2004",
 			"toDate": "2018"
 		},
@@ -141,7 +141,7 @@
 	],
 	"interests": {
 		"paragraphOne": "Apart from building websites and learning about technology I enjoy being outside, travelling, hiking, long walks on the beach and discovering new places.",
-		"paragraphTwo": "When forced indoors I enjoy music very much, playing guitar and piano as well as a good movie or TV-show."
+		"paragraphTwo": "When forced indoors I very much enjoy music, particularly playing the guitar and piano. I also like a good movie or TV show."
 	},
 	"awards": [{
 			"awardDetail": "Hack 36 3rd prize winner."
