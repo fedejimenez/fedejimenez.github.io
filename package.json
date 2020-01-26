@@ -14,9 +14,13 @@
     "@types/react-scroll": "^1.5.4",
     "animated-scroll-to": "^1.2.2",
     "gh-pages": "^2.1.1",
+    "i18next": "^19.0.3",
+    "i18next-browser-languagedetector": "^4.0.1",
+    "i18next-xhr-backend": "^3.2.2",
     "jquery-plugin": "0.0.0-ignored",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-i18next": "^11.3.1",
     "react-scripts": "3.1.1",
     "react-scroll": "^1.7.14"
   },

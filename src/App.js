@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import Sidebar from './components/Sidebar';
 import Landing from './components/Landing';
 import Experience from './components/Experience';
@@ -8,6 +8,8 @@ import Projects from './components/Projects';
 import Interests from './components/Interests';
 import Awards from './components/Awards';
 import profileData from './profileData.json';
+import { withTranslation, Trans } from "react-i18next";
+import LanguageSelector from "./components/LanguageSelector";
 
 class App extends Component {
   constructor(props) {
@@ -27,6 +29,14 @@ class App extends Component {
     return (
       <div className="App">
         <Sidebar sidebarData={this.state.landingData} />
+        <div>
+          <h2>
+            <Trans i18nKey="welcomeMsg" />
+          </h2>
+          <Trans i18nKey="nested.startMsg" />
+          <br />
+          <LanguageSelector />
+        </div>
         <div className="container-fluid p-0">
           <Landing landingData={this.state.landingData} />
           <hr className="m-0" />
@@ -47,4 +57,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withTranslation("translations")(App);
