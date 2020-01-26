@@ -12,7 +12,6 @@ i18n
     ns: ['translations'],
     defaultNS: 'translations',
     debug: true,
-
     interpolation: {
       escapeValue: false // not needed for react!!
     },
@@ -20,9 +19,10 @@ i18n
     react: {
       // wait: true,
       useSuspense: false
-    }
-  }, (err, t) => {
-    console.log(t("header.signup"))
+    }, 
+    returnObjects: true
+  }, (err) => {
+    console.log(err)
   });
 
 export default i18n;
