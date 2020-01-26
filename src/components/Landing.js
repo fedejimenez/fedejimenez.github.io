@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { withTranslation, Trans } from "react-i18next";
 
 class Landing extends Component {
   constructor(props) {
@@ -12,13 +13,13 @@ class Landing extends Component {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div className="w-100">
-          <h1 className="mb-0">{this.landingData.firstName}
-            <span className="text-primary">{this.landingData.lastName}</span>
+          <h1 className="mb-0"><Trans i18nKey="landing.firstName" />
+            <span className="text-primary"><Trans i18nKey="landing.lastName" /></span>
           </h1>
-          <div className="subheading mb-5">{this.landingData.country} · 
-            <a href="mailto:name@email.com"> {this.landingData.email}</a>
+          <div className="subheading mb-5"><Trans i18nKey="landing.country" /> · 
+            <a href="mailto:name@email.com"> <Trans i18nKey="landing.email" /></a>
           </div>
-          <p className="lead mb-5">{this.landingData.bio}</p>
+          <p className="lead mb-5"> <Trans i18nKey="landing.bio" /> </p>
           <div className="social-icons">
             {/* <a href={this.landingData.linkedin} target='_blank' rel="noopener noreferrer"> */}
               {/* <FontAwesomeIcon icon={faLinkedin} /> */}
@@ -36,4 +37,4 @@ class Landing extends Component {
   }
 }
 
-export default Landing;
+export default withTranslation("translations")(Landing);

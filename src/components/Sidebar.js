@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import image from '../assets/profile.jpg';
-import animateScrollTo from 'animated-scroll-to';
-import * as Scroll from 'react-scroll';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Trans } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
+
 
 
 class Sidebar extends Component {
@@ -31,32 +32,35 @@ class Sidebar extends Component {
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#about" to="about" spy={true} smooth={true} offset={offset} duration={duration}>
-              About</Link>
+              <Trans i18nKey="sidebar.about" /></Link>
             </li>
             <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#projects" to="projects" spy={true} smooth={true} offset={offset} duration={duration}>
-              Projects</Link>            
+              <Trans i18nKey="sidebar.projects" /></Link>            
             </li>
             <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#experience" to="experience" spy={true} smooth={true} offset={offset} duration={duration}>
-              Experience</Link>
+              <Trans i18nKey="sidebar.experience" /></Link>
             </li>
             <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#education" to="education" spy={true} smooth={true} offset={offset} duration={duration}>
-              Education</Link>            
+              <Trans i18nKey="sidebar.education" /></Link>            
             </li>
             <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#skills" to="skills" spy={true} smooth={true} offset={offset} duration={duration}>
-              Skills</Link>            
+              <Trans i18nKey="sidebar.skills.title" /></Link>            
             </li>
             <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#interests" to="interests" spy={true} smooth={true} offset={offset} duration={duration}>
-              interests</Link>            
+              <Trans i18nKey="sidebar.interests" /></Link>            
             </li>
             {/* <li className="nav-item">
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#awards" to="awards" spy={true} smooth={true} offset={offset} duration={duration}>
               Awards</Link>            
             </li> */}
+            <li>
+              <LanguageSelector />
+            </li>
           </ul>
         </div>
       </nav>

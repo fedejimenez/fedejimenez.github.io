@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import Interests from './components/Interests';
 import Awards from './components/Awards';
 import profileData from './profileData.json';
-import { withTranslation, Trans } from "react-i18next";
+import { withTranslation } from "react-i18next";
 import LanguageSelector from "./components/LanguageSelector";
 
 class App extends Component {
@@ -29,14 +29,6 @@ class App extends Component {
     return (
       <div className="App">
         <Sidebar sidebarData={this.state.landingData} />
-        <div>
-          <h2>
-            <Trans i18nKey="welcomeMsg" />
-          </h2>
-          <Trans i18nKey="nested.startMsg" />
-          <br />
-          <LanguageSelector />
-        </div>
         <div className="container-fluid p-0">
           <Landing landingData={this.state.landingData} />
           <hr className="m-0" />

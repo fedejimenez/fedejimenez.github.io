@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-
+import { Trans } from "react-i18next";
 
 class Skills extends Component {
   constructor(props) {
@@ -14,8 +14,8 @@ class Skills extends Component {
     return(
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
         <div className="w-100">
-          <h2 className="mb-5">Skills</h2>
-          <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+          <h2 className="mb-5"> <Trans i18nKey="sidebar.skills.title" /></h2>
+          <div className="subheading mb-3"><Trans i18nKey="sidebar.skills.subtitle" /></div>
           <div className="row">
           {
             this.skills.map((data, index) => (
