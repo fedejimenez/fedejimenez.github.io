@@ -7,7 +7,7 @@ i18n
   .use(LanguageDetector)
   .init({
     // we init with resources
-    debug: true,
+    debug: false,
     fallbackLng: "en",
     ns: ['translations'],
     defaultNS: 'translations',
@@ -15,7 +15,10 @@ i18n
     interpolation: {
       escapeValue: false // not needed for react!!
     },
-
+    backend: {
+      loadPath: "./locales/{{lng}}/{{ns}}.json",
+      crossDomain: false
+    }, 
     react: {
       // wait: true,
       useSuspense: false
