@@ -58,8 +58,10 @@ class Sidebar extends Component {
               <Link activeClass="active" className="nav-link js-scroll-trigger" href="#awards" to="awards" spy={true} smooth={true} offset={offset} duration={duration}>
               Awards</Link>            
             </li> */}
-            <li>
+            <li className="nav-item">
+            <Link activeClass="active" className="nav-link js-scroll-trigger" href="#" to="#">
               <LanguageSelector />
+            </Link> 
             </li>
           </ul>
         </div>
