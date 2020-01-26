@@ -63,6 +63,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+### Deploy React-app to Github pages
+- First, install the npm library of Github pages. To install, run this command 
+`npm install gh-pages on your terminal`.
+
+- Then, make following changes in `manifest.json` file:
+
+  - Add the `homepage` field — value will be in the following format — `https://{github_id}.github.io/{github_repo}`
+  - Add `predeploy` and `deploy` fields under `scripts`
+
+- Run `npm run deploy`
+
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
