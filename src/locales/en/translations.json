@@ -30,6 +30,13 @@
 			"image": "crypto_simulator.png"
 		},
 		{
+			"projectTitle": "E-Commerce Platform",
+			"projectDetail": "Boilerplate for an E-Commerce website with shopping cart.",
+			"technologies": "NodeJS - Hosted in Heroku",		
+			"link": "https://node-e-commerce.herokuapp.com/",
+			"image": "e-commerce.png"
+		},
+		{
 			"projectTitle": "Cryto Currency Prices Search Bar",
 			"projectDetail": "Search for the prices of the main crypto coins in the market.",
 			"technologies": "ReactJS - Hosted in AWS",		
@@ -48,7 +55,7 @@
 		{
       "position": "FullStack Developer",
       "organization": "KAJIMA",
-      "location": "London, UK - Remote",
+      "location": "Remote Freelance",
       "aboutWork": "Work remotely as Contractor in an Agile developers team. The department is in charge of maintaining / developing new features on a School Bookings System in the UK.",
       "task1": "Mainly using Ruby stack (RoR, Postgres, Sidekiq, Redis, Rspec) for the Backend and jQuery / JS for the Frontend.",
       "task2": "Maintain actual codebase, fix issues and implement new features requested by clients.",
@@ -60,7 +67,7 @@
 			"position": "FullStack Developer",
 			"organization": "SHIP NOW SA",
 			"location": "Buenos Aires, Argentina",
-			"aboutWork": "Part of the developer team. Started working remotely since beginning of August. The company provides last-mile technological solutions for e-commerce stores ",
+			"aboutWork": "Backend (Ruby stack) and Frontend (JS) development. The company provides last-mile technological solutions for e-commerce stores ",
 			"task1": "Migration of the main apps from Heroku to AWS, obtaining benefits up to 100% in response time and improving scalability.",
 			"task2": "Integration with external API’s mainly related to e-commerce, such as Tiendanube, Shopify, WooComerce.",
 			"task3": "Solving internal / external issues through JIRA’s ticketing system.",
@@ -113,32 +120,36 @@
             "icon": "fasHtml5"
 		},
 		{
-            "name": "CSS3",
-            "icon": "fasCss3"
+						"name": "Ruby",
+						"icon": "faRuby"
+		},
+		{
+						"name": "CSS3",
+						"icon": "fasCss3"
+		},
+		{
+						"name": "Ruby on Rails",
+						"icon": "faRubyOnRails"
 		},
 		{
             "name": "Javascript",
             "icon": "faJs"
 		},
 		{
+						"name": "Nodejs",
+						"icon": "faNodeJs"
+		},
+		{
             "name": "Bootstrap",
             "icon": "faBootstrap"
 		},
 		{
-            "name": "Ruby",
-            "icon": "faRuby"
-		},
-		{
-            "name": "Ruby on Rails",
-            "icon": "faRubyOnRails"
-		},
-		{
-            "name": "Nodejs",
-            "icon": "faNodeJs"
-		},
-		{
             "name": "Python",
             "icon": "faPython"
+		},
+		{
+						"name": "Heroku",
+						"icon": "faHeroku"
 		},
 		{
             "name": "Django",
@@ -147,10 +158,6 @@
 		{
             "name": "AWS",
             "icon": "faAws"
-		},
-		{
-            "name": "Heroku",
-            "icon": "faHeroku"
 		}
 	],
 	"interests": {

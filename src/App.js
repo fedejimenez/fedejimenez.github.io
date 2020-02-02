@@ -7,7 +7,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Interests from './components/Interests';
 import Awards from './components/Awards';
-import profileData from './profileData.json';
+import profileData from './locales/en/translations.json';
 import { withTranslation } from "react-i18next";
 import LanguageSelector from "./components/LanguageSelector";
 

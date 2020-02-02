@@ -13,7 +13,8 @@ class Projects extends Component {
   }
 
   render() {
-    const i18n_projects = i18n.t('projects', { returnObjects: true })
+    const i18n_projects = i18n.t('projects', { returnObjects: true });
+    console.log('projects: ', this.projects);
 
     return(
         <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
