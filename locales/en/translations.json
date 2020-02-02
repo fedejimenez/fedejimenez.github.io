@@ -78,7 +78,7 @@
 			"position": "Instructor",
 			"organization": "Educacion IT",
 			"location": "Buenos Aires, Argentina",
-			"aboutWork": "Part-time flexible. The company provides several ",
+			"aboutWork": "Part-time flexible.",
 			"task1": "Prepare documentation and exercises about several introductory IT related courses, such as: HTML5, CSS3, Javascript, Python, Arduino, Git.",
 			"task2": "Teach online classes through an E-learning platform.",
 			"task3": "Follow students's progress and review excercises.",
@@ -120,32 +120,36 @@
             "icon": "fasHtml5"
 		},
 		{
-            "name": "CSS3",
-            "icon": "fasCss3"
+						"name": "Ruby",
+						"icon": "faRuby"
+		},
+		{
+						"name": "CSS3",
+						"icon": "fasCss3"
+		},
+		{
+						"name": "Ruby on Rails",
+						"icon": "faRubyOnRails"
 		},
 		{
             "name": "Javascript",
             "icon": "faJs"
 		},
 		{
+						"name": "Nodejs",
+						"icon": "faNodeJs"
+		},
+		{
             "name": "Bootstrap",
             "icon": "faBootstrap"
 		},
 		{
-            "name": "Ruby",
-            "icon": "faRuby"
-		},
-		{
-            "name": "Ruby on Rails",
-            "icon": "faRubyOnRails"
-		},
-		{
-            "name": "Nodejs",
-            "icon": "faNodeJs"
-		},
-		{
             "name": "Python",
             "icon": "faPython"
+		},
+		{
+						"name": "Heroku",
+						"icon": "faHeroku"
 		},
 		{
             "name": "Django",
@@ -154,10 +158,6 @@
 		{
             "name": "AWS",
             "icon": "faAws"
-		},
-		{
-            "name": "Heroku",
-            "icon": "faHeroku"
 		}
 	],
 	"interests": {
