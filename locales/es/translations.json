@@ -14,7 +14,7 @@
 		"lastName": " Jiménez",
 		"phoneNumber": "+91-0123456789",
 		"country": "Argentina",
-		"bio": "Siendo graduado de Ingeniería Electrónica, comencé a programar hace más de 10 años, primero con lo relacionado a microcontroladores y desarrollos electrónicos, y luego como pasatiempo. Finalmente, hace dos años, decidí convertir a la programación como mi profesión principal. Desde entondes he estado enfocado en mejorar mis habilidades en el campo,  encontrar proyectos y grupos de trabajo interesantes a los que pueda agregar valor.",
+		"bio": "Siendo graduado de Ingeniería Electrónica, comencé a programar hace más de 10 años, primero con microcontroladores y desarrollos electrónicos, y luego como pasatiempo. Finalmente, hace dos años, decidí convertir a la programación en mi profesión principal. Desde entonces he estado enfocado en mejorar mis habilidades en el campo y encontrar proyectos y equipos de trabajo interesantes a los que les pueda agregar valor.",
     "email": "fedeejimenez@gmail.com",
     "linkedin": "https://www.linkedin.com/in/federico-jim%C3%A9nez-26a54950/",
     "github": "https://github.com/fedejimenez",
@@ -23,10 +23,17 @@
 	"projects": [
 		{
 			"projectTitle": "Simulador de Trading con Criptomonedas",
-			"projectDetail": "Testear y mejorar habilidades como trader digital sin perder tus preciados ahorros, por medio de un simulador.",
+			"projectDetail": "Testear y mejorar habilidades como trader digital por medio de un simulador.",
 			"technologies": "Ruby on Rails - Hosteo en Heroku",
 			"link": "https://cryptosimulator.herokuapp.com/",
 			"image": "crypto_simulator.png"
+		},
+		{
+			"projectTitle": "Plataforma de E-Commerce",
+			"projectDetail": "Desarrollo de una web de E-commerce con carro de compras.",
+			"technologies": "NodeJS - Hosteo en Heroku",		
+			"link": "https://node-e-commerce.herokuapp.com/", 
+			"image": "e-commerce.png"
 		},
 		{
 			"projectTitle": "Barra de búsqueda de precios de Criptomonedas",
@@ -47,20 +54,20 @@
     {
       "position": "Desarrollador FullStack",
       "organization": "KAJIMA",
-      "location": "London, UK - Remoto",
-      "aboutWork": "Trabajo en equipo siguiendo metodologías Ágiles. El departamento se encarga de mantener / mejorar un sistema de reservas en colegios del Reino Unido.",
-      "task1": "Principalmente desarrollos con Ruby (RoR, Postgres, Sidekiq, Redis, Rspec) para el Backend y jQuery / JS para el Frontend.",
-      "task2": "Mantener el código actual, solucionar de problemas e implementar nuevas características solicitadas por los clientes.",
+      "location": "Freelance Remoto",
+      "aboutWork": "Trabajo en equipo siguiendo metodologías Ágiles. El área se encarga de mantener / mejorar un sistema de reservas en colegios del Reino Unido.",
+      "task1": "Principalmente desarrollos con stack Ruby (RoR, Postgres, Sidekiq, Redis, Rspec) para el Backend y jQuery / JS para el Frontend.",
+      "task2": "Mantener el código actual, solucionar problemas e implementar nuevas características solicitadas por los clientes.",
 			"task3": "Reuniones SCRUM diarias y seguimiento / cierre de problemas a través del sistema de tickets de JIRA.",
       "fromDate": "Septiembre 2019",
-      "toDate": "Present"
+      "toDate": "Presente"
     },
 		{
       "position": "Desarrollador FullStack",
       "organization": "SHIP NOW SA",
       "location": "Buenos Aires, Argentina",
-      "aboutWork": "Parte del equipo de desarrolladores con tareas de Backend, FrontEnd y DevOp en Heroku y AWS. La compañia provee soluciones tecnológicas de última milla a tiendas de e-commerce.",
-      "task1": "Migración de los principales servicios de Heroku a AWS, obteniendo beneficios de hasta 100% en tiempos de respuesta y mejora en escaabilidad.",
+      "aboutWork": "Parte del equipo de desarrolladores con tareas de Backend (stack Ruby), FrontEnd y DevOp en Heroku y AWS. La compañia provee soluciones tecnológicas de última milla a tiendas de e-commerce.",
+      "task1": "Migración de los principales servicios de Heroku a AWS, obteniendo beneficios de hasta 100% en tiempos de respuesta y mejora en escalabilidad.",
       "task2": "Integraciones con API's externas en su mayoría relacionadas al e-commerce, como Tiendanube, Shopify, WooComerce.",
       "task3": "Seguimiento y resolución de problemas a través del sistema de tickets de JIRA.",
       "fromDate": "Enero 2019",
@@ -112,44 +119,44 @@
             "icon": "fasHtml5"
 		},
 		{
+						"name": "Ruby",
+						"icon": "faRuby"
+		},
+		{
             "name": "CSS3",
             "icon": "fasCss3"
+		},
+		{
+						"name": "Ruby on Rails",
+						"icon": "faRubyOnRails"
+		},
+		{
+						"name": "Bootstrap",
+						"icon": "faBootstrap"
+		},
+		{
+						"name": "Nodejs",
+						"icon": "faNodeJs"
 		},
 		{
             "name": "Javascript",
             "icon": "faJs"
 		},
 		{
-            "name": "Bootstrap",
-            "icon": "faBootstrap"
-		},
-		{
-            "name": "Ruby",
-            "icon": "faRuby"
-		},
-		{
-            "name": "Ruby on Rails",
-            "icon": "faRubyOnRails"
-		},
-		{
-            "name": "Nodejs",
-            "icon": "faNodeJs"
-		},
-		{
             "name": "Python",
             "icon": "faPython"
 		},
 		{
-            "name": "Django",
-            "icon": "faDjango"
+						"name": "Heroku",
+						"icon": "faHeroku"
 		},
 		{
-            "name": "AWS",
-            "icon": "faAws"
+						"name": "Django",
+						"icon": "faDjango"
 		},
 		{
-            "name": "Heroku",
-            "icon": "faHeroku"
+						"name": "AWS",
+						"icon": "faAws"
 		}
 	],
 	"interests": {
