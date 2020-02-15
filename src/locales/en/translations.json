@@ -54,9 +54,9 @@
 	"experience": [
 		{
       "position": "FullStack Developer",
-      "organization": "KAJIMA",
-      "location": "Remote Freelance",
-      "aboutWork": "Work remotely as Contractor in an Agile developers team. The department is in charge of maintaining / developing new features on a School Bookings System in the UK.",
+      "organization": "Freelance",
+      "location": "Remote",
+      "aboutWork": "I currently work remotely as a Contractor in an Agile developers team. The department is in charge of maintaining / developing new features on a School Bookings System in the UK.",
       "task1": "Mainly using Ruby stack (RoR, Postgres, Sidekiq, Redis, Rspec) for the Backend and jQuery / JS for the Frontend.",
       "task2": "Maintain actual codebase, fix issues and implement new features requested by clients.",
 			"task3": "Daily SCRUM meetings and following / closing issues through JIRA’s ticketing system.",
