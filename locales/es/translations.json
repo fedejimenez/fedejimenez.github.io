@@ -53,9 +53,9 @@
   "experience": [
     {
       "position": "Desarrollador FullStack",
-      "organization": "KAJIMA",
-      "location": "Freelance Remoto",
-      "aboutWork": "Trabajo en equipo siguiendo metodologías Ágiles. El área se encarga de mantener / mejorar un sistema de reservas en colegios del Reino Unido.",
+      "organization": "Freelance",
+      "location": "Remoto",
+      "aboutWork": "Actualmente trabajo en un equipo siguiendo metodologías Ágiles. El área se encarga de mantener / mejorar un sistema de reservas en colegios del Reino Unido.",
       "task1": "Principalmente desarrollos con stack Ruby (RoR, Postgres, Sidekiq, Redis, Rspec) para el Backend y jQuery / JS para el Frontend.",
       "task2": "Mantener el código actual, solucionar problemas e implementar nuevas características solicitadas por los clientes.",
 			"task3": "Reuniones SCRUM diarias y seguimiento / cierre de problemas a través del sistema de tickets de JIRA.",
