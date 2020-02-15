@@ -7,11 +7,10 @@ i18n
   .use(LanguageDetector)
   .init({
     // we init with resources
-    debug: false,
     fallbackLng: "en",
     ns: ['translations'],
     defaultNS: 'translations',
-    debug: true,
+    debug: false,
     interpolation: {
       escapeValue: false // not needed for react!!
     },
