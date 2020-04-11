@@ -1,177 +1,179 @@
 {
-	"sidebar": {
-		"about": "About",
-		"projects": "Projects",
-		"experience": "Experience",
-		"education": "Education",
-		"skills": {
-			"title": "Skills",
-			"subtitle": "Programming languages & tools"
-		},
-		"interests": "Interests"
-	},
-	"landing": {
-		"firstName": "Federico",
-		"lastName": " Jiménez",
-		"phoneNumber": "+91-0123456789",
-		"country": "Argentina",
-		"bio": "With a bachelor’s degree in Electronics Engineering, I began coding more than ten years ago, first involving micro-controllers and electronics software, then as a hobby. Finally, in 2017, I decided to make programming my primary profession. Since then I have been focused on improving  my skills  and finding  interesting projects  and people  to work with.",
+  "sidebar": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": {
+      "title": "Skills",
+      "subtitle": "Programming languages & tools"
+    },
+    "interests": "Interests"
+  },
+  "landing": {
+    "firstName": "Federico",
+    "lastName": " Jiménez",
+    "phoneNumber": "+91-0123456789",
+    "profession": "Full Stack Developer",
+    "bio": "With a bachelor’s degree in Electronics Engineering, I began coding more than ten years ago, first involving micro-controllers and electronics software, then as a hobby. Finally, in 2017, I decided to make programming my primary profession. Since then I have been focused on improving  my skills  and finding  interesting projects  and people  to work with.",
     "email": "fedeejimenez@gmail.com",
     "linkedin": "https://www.linkedin.com/in/federico-jim%C3%A9nez-26a54950/",
     "github": "https://github.com/fedejimenez",
     "facebook": "https://www.facebook.com/fede.jimenez.10"
-	},
-	"projects": [
-		{
-			"projectTitle": "Cryto Currency Trading Simulator",
-			"projectDetail": "Test and improve your skills as a digital trader without losing your hard-earned savings!",
-			"technologies": "Ruby on Rails - Hosted in Heroku",
-			"link": "https://cryptosimulator.herokuapp.com/",
-			"image": "crypto_simulator.png"
-		},
-		{
-			"projectTitle": "E-Commerce Platform",
-			"projectDetail": "Boilerplate for an E-Commerce website with shopping cart.",
-			"technologies": "NodeJS - Hosted in Heroku",		
-			"link": "https://node-e-commerce.herokuapp.com/",
-			"image": "e-commerce.png"
-		},
-		{
-			"projectTitle": "Cryto Currency Prices Search Bar",
-			"projectDetail": "Search for the prices of the main crypto coins in the market.",
-			"technologies": "ReactJS - Hosted in AWS",		
-			"link": "http://crypto-react.s3-website-us-east-1.amazonaws.com/", 
-			"image": "search_bar.png"
-		},
-		{
-			"projectTitle": "Sales / Inventory Manager",
-			"projectDetail": "Manage your purchases, sales, track your inventory and print reports.",
-			"technologies": "PHP - Hosted in Heroku",	
-			"link": "https://purchases-sales-system.herokuapp.com/", 
-			"image": "inventory_manager.png"
-		}
-	],
-	"experience": [
-		{
+  },
+  "projects": [
+    {
+      "projectTitle": "Cryto Currency Trading Simulator",
+      "projectDetail": "Test and improve your skills as a digital trader without losing your hard-earned savings!",
+      "technologies": "Ruby on Rails - Hosted in Heroku",
+      "link": "https://cryptosimulator.herokuapp.com/",
+      "image": "crypto_simulator.png"
+    },
+    {
+      "projectTitle": "E-Commerce Platform",
+      "projectDetail": "Boilerplate for an E-Commerce website with shopping cart.",
+      "technologies": "NodeJS - Hosted in Heroku",
+      "link": "https://node-e-commerce.herokuapp.com/",
+      "image": "e-commerce.png"
+    },
+    {
+      "projectTitle": "Cryto Currency Prices Search Bar",
+      "projectDetail": "Search for the prices of the main crypto coins in the market.",
+      "technologies": "ReactJS - Hosted in AWS",
+      "link": "http://crypto-react.s3-website-us-east-1.amazonaws.com/",
+      "image": "search_bar.png"
+    },
+    {
+      "projectTitle": "Sales / Inventory Manager",
+      "projectDetail": "Manage your purchases, sales, track your inventory and print reports.",
+      "technologies": "PHP - Hosted in Heroku",
+      "link": "https://purchases-sales-system.herokuapp.com/",
+      "image": "inventory_manager.png"
+    }
+  ],
+  "experience": [
+    {
       "position": "FullStack Developer",
       "organization": "Freelance",
       "location": "Remote",
       "aboutWork": "I currently work remotely as a Contractor in an Agile developers team. The department is in charge of maintaining / developing new features on a School Bookings System in the UK.",
       "task1": "Mainly using Ruby stack (RoR, Postgres, Sidekiq, Redis, Rspec) for the Backend and jQuery / JS for the Frontend.",
       "task2": "Maintain actual codebase, fix issues and implement new features requested by clients.",
-			"task3": "Daily SCRUM meetings and following / closing issues through JIRA’s ticketing system.",
+      "task3": "Daily SCRUM meetings and following / closing issues through JIRA’s ticketing system.",
       "fromDate": "September 2019",
       "toDate": "Present"
     },
-		{
-			"position": "FullStack Developer",
-			"organization": "SHIP NOW SA",
-			"location": "Buenos Aires, Argentina",
-			"aboutWork": "Backend (Ruby stack) and Frontend (JS) development. The company provides last-mile technological solutions for e-commerce stores ",
-			"task1": "Migration of the main apps from Heroku to AWS, obtaining benefits up to 100% in response time and improving scalability.",
-			"task2": "Integration with external API’s mainly related to e-commerce, such as Tiendanube, Shopify, WooComerce.",
-			"task3": "Solving internal / external issues through JIRA’s ticketing system.",
-			"fromDate": "January 2019",
-			"toDate": "September 2019"
+    {
+      "position": "FullStack Developer",
+      "organization": "SHIP NOW SA",
+      "location": "Buenos Aires, Argentina",
+      "aboutWork": "Backend (Ruby stack) and Frontend (JS) development. The company provides last-mile technological solutions for e-commerce stores ",
+      "task1": "Migration of the main apps from Heroku to AWS, obtaining benefits up to 100% in response time and improving scalability.",
+      "task2": "Integration with external API’s mainly related to e-commerce, such as Tiendanube, Shopify, WooComerce.",
+      "task3": "Solving internal / external issues through JIRA’s ticketing system.",
+      "fromDate": "January 2019",
+      "toDate": "September 2019"
     },
-		{
-			"position": "Instructor",
-			"organization": "Educacion IT",
-			"location": "Buenos Aires, Argentina",
-			"aboutWork": "Part-time flexible.",
-			"task1": "Prepare documentation and exercises about several introductory IT related courses, such as: HTML5, CSS3, Javascript, Python, Arduino, Git.",
-			"task2": "Teach online classes through an E-learning platform.",
-			"task3": "Follow students's progress and review excercises.",
-			"fromDate": "February 2019",
-			"toDate": "Present"
-		}
-	],
-	"education": [
-		{
-			"institute": "NEXT Academy",
-			"location": "Kuala Lumpur, Malaysia",
-			"degree": "Full-Stack Web Developer (Ruby on Rails)",
-			"gpa": "12.34",
-			"extra": "Intensive 10-week Bootcamp covering: Javascript, Bootstrap, API’s (Google Maps, Google Voice, Facebook, Tumblr), Ruby, Ruby on Rails, Rspec, Sidekiq, Redis, Github, MySQL, PostgreSQL, Heroku.",
-			"fromDate": "August 2018",
-			"toDate": "October 2018"
-		},
-		{
-			"institute": "Educacion IT",
-			"location": "Buenos Aires, Argentina",
-			"degree": "Full-Stack Web Developer (PHP)",
-			"gpa": "12.34",
-			"extra": "Courses for Back-end (PHP, MySQL) and Front-end (HTML5, CSS3, jQuery, Bootstrap).",
-			"fromDate": "2016",
-			"toDate": "2017"
-		},
-		{
-			"institute": "National University of Mar del Plata",
-			"location": "Buenos Aires, Argentina",
-			"degree": "Bachelor's Degree in Electronics Engineering",
-			"gpa": "12.34",
-			"extra": "Thesis: “Android App to Control A Domotic Home System”. Technologies: JAVA(Android), Objective C(Arduino), Google Voice's API, Bluetooth.",
-			"fromDate": "2004",
-			"toDate": "2014"
-		}
-	],
-	"skills": [{
-            "name": "HTML5",
-            "icon": "fasHtml5"
-		},
-		{
-						"name": "Ruby",
-						"icon": "faRuby"
-		},
-		{
-						"name": "CSS3",
-						"icon": "fasCss3"
-		},
-		{
-						"name": "Ruby on Rails",
-						"icon": "faRubyOnRails"
-		},
-		{
-            "name": "Javascript",
-            "icon": "faJs"
-		},
-		{
-						"name": "Nodejs",
-						"icon": "faNodeJs"
-		},
-		{
-            "name": "Bootstrap",
-            "icon": "faBootstrap"
-		},
-		{
-            "name": "Python",
-            "icon": "faPython"
-		},
-		{
-						"name": "Heroku",
-						"icon": "faHeroku"
-		},
-		{
-            "name": "Django",
-            "icon": "faDjango"
-		},
-		{
-            "name": "AWS",
-            "icon": "faAws"
-		}
-	],
-	"interests": {
-		"paragraphOne": "Apart from building websites and learning about technology I enjoy being outside, travelling, hiking, long walks on the beach and discovering new places.",
-		"paragraphTwo": "When forced indoors I very much enjoy music, particularly playing the guitar and piano. I also like a good movie or TV show."
-	},
-	"awards": [{
-			"awardDetail": ""
-		},
-		{
-			"awardDetail": ""
-		},
-		{
-			"awardDetail": ""
-		}
-	]
+    {
+      "position": "Instructor",
+      "organization": "Educacion IT",
+      "location": "Buenos Aires, Argentina",
+      "aboutWork": "Part-time flexible.",
+      "task1": "Prepare documentation and exercises about several introductory IT related courses, such as: HTML5, CSS3, Javascript, Python, Arduino, Git.",
+      "task2": "Teach online classes through an E-learning platform.",
+      "task3": "Follow students's progress and review excercises.",
+      "fromDate": "February 2019",
+      "toDate": "Present"
+    }
+  ],
+  "education": [
+    {
+      "institute": "NEXT Academy",
+      "location": "Kuala Lumpur, Malaysia",
+      "degree": "Full-Stack Web Developer (Ruby on Rails)",
+      "gpa": "12.34",
+      "extra": "Intensive 10-week Bootcamp covering: Javascript, Bootstrap, API’s (Google Maps, Google Voice, Facebook, Tumblr), Ruby, Ruby on Rails, Rspec, Sidekiq, Redis, Github, MySQL, PostgreSQL, Heroku.",
+      "fromDate": "August 2018",
+      "toDate": "October 2018"
+    },
+    {
+      "institute": "Educacion IT",
+      "location": "Buenos Aires, Argentina",
+      "degree": "Full-Stack Web Developer (PHP)",
+      "gpa": "12.34",
+      "extra": "Courses for Back-end (PHP, MySQL) and Front-end (HTML5, CSS3, jQuery, Bootstrap).",
+      "fromDate": "2016",
+      "toDate": "2017"
+    },
+    {
+      "institute": "National University of Mar del Plata",
+      "location": "Buenos Aires, Argentina",
+      "degree": "Bachelor's Degree in Electronics Engineering",
+      "gpa": "12.34",
+      "extra": "Thesis: “Android App to Control A Domotic Home System”. Technologies: JAVA(Android), Objective C(Arduino), Google Voice's API, Bluetooth.",
+      "fromDate": "2004",
+      "toDate": "2014"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML5",
+      "icon": "fasHtml5"
+    },
+    {
+      "name": "Ruby",
+      "icon": "faRuby"
+    },
+    {
+      "name": "CSS3",
+      "icon": "fasCss3"
+    },
+    {
+      "name": "Ruby on Rails",
+      "icon": "faRubyOnRails"
+    },
+    {
+      "name": "Javascript",
+      "icon": "faJs"
+    },
+    {
+      "name": "Nodejs",
+      "icon": "faNodeJs"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "faBootstrap"
+    },
+    {
+      "name": "Python",
+      "icon": "faPython"
+    },
+    {
+      "name": "Heroku",
+      "icon": "faHeroku"
+    },
+    {
+      "name": "Django",
+      "icon": "faDjango"
+    },
+    {
+      "name": "AWS",
+      "icon": "faAws"
+    }
+  ],
+  "interests": {
+    "paragraphOne": "Apart from building websites and learning about technology I enjoy being outside, travelling, hiking, long walks on the beach and discovering new places.",
+    "paragraphTwo": "When forced indoors I very much enjoy music, particularly playing the guitar and piano. I also like a good movie or TV show."
+  },
+  "awards": [
+    {
+      "awardDetail": ""
+    },
+    {
+      "awardDetail": ""
+    },
+    {
+      "awardDetail": ""
+    }
+  ]
 }
