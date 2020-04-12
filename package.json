@@ -19,6 +19,7 @@
     "i18next-browser-languagedetector": "^4.0.1",
     "i18next-xhr-backend": "^3.2.2",
     "jquery-plugin": "0.0.0-ignored",
+    "node-sass": "^4.13.1",
     "react": "^16.9.0",
     "react-devicon": "^0.1.9",
     "react-dom": "^16.9.0",

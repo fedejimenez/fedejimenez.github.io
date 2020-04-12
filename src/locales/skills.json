@@ -1,0 +1,74 @@
+{
+  "skills": [
+    {
+      "name": "HTML5",
+      "icon": "html5",
+      "stack": "frontend"
+    },
+    {
+      "name": "Ruby",
+      "icon": "ruby",
+      "stack": "backend"
+    },
+    {
+      "name": "CSS3",
+      "icon": "css3",
+      "stack": "frontend"
+    },
+    {
+      "name": "Rails",
+      "icon": "rails",
+      "stack": "backend"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "bootstrap",
+      "stack": "frontend"
+    },
+    {
+      "name": "Nodejs",
+      "icon": "nodejs",
+      "stack": "backend"
+    },
+    {
+      "name": "Javascript",
+      "icon": "javascript",
+      "stack": "frontend"
+    },
+    {
+      "name": "ReactJS",
+      "icon": "react",
+      "stack": "frontend"
+    },
+    {
+      "name": "Python",
+      "icon": "python",
+      "stack": "backend"
+    },
+    {
+      "name": "Heroku",
+      "icon": "heroku",
+      "stack": "devops"
+    },
+    {
+      "name": "Django",
+      "icon": "django",
+      "stack": "backend"
+    },
+    {
+      "name": "AWS",
+      "icon": "amazonwebservices",
+      "stack": "devops"
+    },
+    {
+      "name": "PostgresSQL",
+      "icon": "postgresql",
+      "stack": "db"
+    },
+    {
+      "name": "MongoDB",
+      "icon": "mongodb",
+      "stack": "db"
+    }
+  ]
+}

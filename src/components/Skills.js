@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Trans } from "react-i18next";
 import "./stylesheets/Skills.css";
+import SkillsMenu from "./SkillsMenu";
 
 class Skills extends Component {
   constructor(props) {
@@ -25,16 +26,7 @@ class Skills extends Component {
           </div>
           <br></br>
           <div className="row">
-            {this.skills.map((data, index) => (
-              <div key={index} className="col-6 Skills-list">
-                <p className="list-item">
-                  <i
-                    class={`Skills-icon devicon-${data.icon}-plain colored`}
-                  ></i>
-                  <span className="Skills-text ml-3">{data.name}</span>
-                </p>
-              </div>
-            ))}
+            <SkillsMenu skills={this.props.skills} />
           </div>
         </div>
       </section>
