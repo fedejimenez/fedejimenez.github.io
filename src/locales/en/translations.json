@@ -118,47 +118,47 @@
   "skills": [
     {
       "name": "HTML5",
-      "icon": "fasHtml5"
+      "icon": "html5"
     },
     {
       "name": "Ruby",
-      "icon": "faRuby"
+      "icon": "ruby"
     },
     {
       "name": "CSS3",
-      "icon": "fasCss3"
+      "icon": "css3"
     },
     {
       "name": "Ruby on Rails",
-      "icon": "faRubyOnRails"
-    },
-    {
-      "name": "Javascript",
-      "icon": "faJs"
-    },
-    {
-      "name": "Nodejs",
-      "icon": "faNodeJs"
+      "icon": "rails"
     },
     {
       "name": "Bootstrap",
-      "icon": "faBootstrap"
+      "icon": "bootstrap"
+    },
+    {
+      "name": "Nodejs",
+      "icon": "nodejs"
+    },
+    {
+      "name": "Javascript",
+      "icon": "javascript"
     },
     {
       "name": "Python",
-      "icon": "faPython"
+      "icon": "python"
     },
     {
       "name": "Heroku",
-      "icon": "faHeroku"
+      "icon": "heroku"
     },
     {
       "name": "Django",
-      "icon": "faDjango"
+      "icon": "django"
     },
     {
       "name": "AWS",
-      "icon": "faAws"
+      "icon": "amazonwebservices"
     }
   ],
   "interests": {
