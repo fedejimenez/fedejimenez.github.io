@@ -75,3 +75,11 @@ ul {
   line-height: 1;
   transition: color 1s;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .c-menu {
+    margin: 100px;
+    float: none;
+  }
+}

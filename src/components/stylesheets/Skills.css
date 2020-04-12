@@ -77,3 +77,32 @@
     opacity: 1;
   }
 }
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .SkillsMenu-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .Skills-list {
+    padding: 1.5%;
+  }
+  .Skills-icon {
+    font-size: 2rem;
+    vertical-align: middle;
+  }
+  .Skills-text {
+    font-size: 1rem;
+  }
+
+  .Skills-list .list-item {
+    min-width: 100px;
+    margin: 20px;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+  }
+}
