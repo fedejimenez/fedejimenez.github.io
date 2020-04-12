@@ -115,52 +115,6 @@
       "toDate": "2014"
     }
   ],
-  "skills": [
-    {
-      "name": "HTML5",
-      "icon": "html5"
-    },
-    {
-      "name": "Ruby",
-      "icon": "ruby"
-    },
-    {
-      "name": "CSS3",
-      "icon": "css3"
-    },
-    {
-      "name": "Ruby on Rails",
-      "icon": "rails"
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "bootstrap"
-    },
-    {
-      "name": "Nodejs",
-      "icon": "nodejs"
-    },
-    {
-      "name": "Javascript",
-      "icon": "javascript"
-    },
-    {
-      "name": "Python",
-      "icon": "python"
-    },
-    {
-      "name": "Heroku",
-      "icon": "heroku"
-    },
-    {
-      "name": "Django",
-      "icon": "django"
-    },
-    {
-      "name": "AWS",
-      "icon": "amazonwebservices"
-    }
-  ],
   "interests": {
     "paragraphOne": "Aparte de la Programación Web y aprender sobre tecnología me gusta realizar actividades al aire libre, viajar y descubrir nuevos lugares.",
     "paragraphTwo": "Cuando me encuentro en el hogar disfruto mucho tanto de leero como del cine y la música. Me gusta tocar y soy un continuo aprendiz de la guitarra y el piano"

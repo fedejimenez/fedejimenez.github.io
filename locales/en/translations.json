@@ -115,52 +115,6 @@
       "toDate": "2014"
     }
   ],
-  "skills": [
-    {
-      "name": "HTML5",
-      "icon": "html5"
-    },
-    {
-      "name": "Ruby",
-      "icon": "ruby"
-    },
-    {
-      "name": "CSS3",
-      "icon": "css3"
-    },
-    {
-      "name": "Ruby on Rails",
-      "icon": "rails"
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "bootstrap"
-    },
-    {
-      "name": "Nodejs",
-      "icon": "nodejs"
-    },
-    {
-      "name": "Javascript",
-      "icon": "javascript"
-    },
-    {
-      "name": "Python",
-      "icon": "python"
-    },
-    {
-      "name": "Heroku",
-      "icon": "heroku"
-    },
-    {
-      "name": "Django",
-      "icon": "django"
-    },
-    {
-      "name": "AWS",
-      "icon": "amazonwebservices"
-    }
-  ],
   "interests": {
     "paragraphOne": "Apart from building websites and learning about technology I enjoy being outside, travelling, hiking, long walks on the beach and discovering new places.",
     "paragraphTwo": "When forced indoors I very much enjoy music, particularly playing the guitar and piano. I also like a good movie or TV show."
