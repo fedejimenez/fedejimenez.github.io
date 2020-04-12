@@ -38,7 +38,7 @@ class SkillsMenuItem extends React.Component {
         onMouseEnter={this.handleMouseHover}
         onMouseLeave={this.handleMouseLeave}
       >
-        <a className="c-list__link" href="" onClick={this.handleClick}>
+        <a className="c-list__link" href="/" onClick={this.handleClick}>
           {this.props.stack.name}
         </a>
       </li>

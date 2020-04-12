@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faFacebookF
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { withTranslation, Trans } from "react-i18next";
 
 class Landing extends Component {

@@ -1,4 +1,4 @@
-import React, { Component, Suspense } from "react";
+import React, { Component } from "react";
 import Sidebar from "./components/Sidebar";
 import Landing from "./components/Landing";
 import Experience from "./components/Experience";
@@ -6,11 +6,9 @@ import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Interests from "./components/Interests";
-import Awards from "./components/Awards";
 import profileData from "./locales/en/translations.json";
 import profileSkills from "./locales/skills.json";
 import { withTranslation } from "react-i18next";
-import LanguageSelector from "./components/LanguageSelector";
 
 class App extends Component {
   constructor(props) {

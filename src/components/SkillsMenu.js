@@ -39,6 +39,9 @@ class SkillsMenu extends React.Component {
         case 4:
           name = "db";
           break;
+        default:
+          name = "";
+          break;
       }
       let filteredSkills = this.skills.filter(function(skill) {
         return skill.stack === name;
