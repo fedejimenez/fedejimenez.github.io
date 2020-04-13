@@ -6,13 +6,13 @@
     "education": "Education",
     "skills": {
       "title": "Skills",
-      "subtitle": "Programming languages & tools"
+      "subtitle": "Programming languages, tools & capabilities"
     },
     "interests": "Interests"
   },
   "landing": {
     "firstName": "Federico",
-    "lastName": " Jiménez",
+    "lastName": " Jimenez",
     "phoneNumber": "+91-0123456789",
     "profession": "Full Stack Developer",
     "bio": "With a bachelor’s degree in Electronics Engineering, I began coding more than ten years ago, first involving micro-controllers and electronics software, then as a hobby. Finally, in 2017, I decided to make programming my primary profession. Since then I have been focused on improving  my skills  and finding  interesting projects  and people  to work with.",

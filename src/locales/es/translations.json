@@ -6,13 +6,13 @@
     "education": "Educación",
     "skills": {
       "title": "Habilidades",
-      "subtitle": "Lenguajes de programación y herramientas"
+      "subtitle": "Lenguajes de programación, herramientas y capacidades"
     },
     "interests": "Intereses"
   },
   "landing": {
     "firstName": "Federico",
-    "lastName": " Jiménez",
+    "lastName": " Jimenez",
     "phoneNumber": "+91-0123456789",
     "profession": "Desarrollador Full Stack",
     "bio": "Siendo graduado de Ingeniería Electrónica, comencé a programar hace más de 10 años, primero con microcontroladores y desarrollos electrónicos, y luego como pasatiempo. Finalmente, en 2017, decidí convertir a la programación en mi profesión principal. Desde entonces he estado enfocado en mejorar mis habilidades en el campo y encontrar proyectos y equipos de trabajo interesantes a los que les pueda agregar valor.",
@@ -113,52 +113,6 @@
       "extra": "Tesis: “Aplicación sobre dispositivos móviles para el control de un sistema domótico”. Tecnologías: JAVA(Android), Objective C(Arduino), Google Voice's API, Bluetooth.",
       "fromDate": "2004",
       "toDate": "2014"
-    }
-  ],
-  "skills": [
-    {
-      "name": "HTML5",
-      "icon": "html5"
-    },
-    {
-      "name": "Ruby",
-      "icon": "ruby"
-    },
-    {
-      "name": "CSS3",
-      "icon": "css3"
-    },
-    {
-      "name": "Ruby on Rails",
-      "icon": "rails"
-    },
-    {
-      "name": "Bootstrap",
-      "icon": "bootstrap"
-    },
-    {
-      "name": "Nodejs",
-      "icon": "nodejs"
-    },
-    {
-      "name": "Javascript",
-      "icon": "javascript"
-    },
-    {
-      "name": "Python",
-      "icon": "python"
-    },
-    {
-      "name": "Heroku",
-      "icon": "heroku"
-    },
-    {
-      "name": "Django",
-      "icon": "django"
-    },
-    {
-      "name": "AWS",
-      "icon": "amazonwebservices"
     }
   ],
   "interests": {

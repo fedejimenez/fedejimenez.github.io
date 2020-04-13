@@ -3,7 +3,6 @@ import image from "../assets/profile.jpg";
 import { Link } from "react-scroll";
 import { Trans } from "react-i18next";
 import LanguageSelector from "./LanguageSelector";
-
 class Sidebar extends Component {
   constructor(props) {
     super(props);

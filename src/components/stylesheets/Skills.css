@@ -16,17 +16,32 @@
   font-size: 2rem;
 }
 
+.Skills-capabilities {
+  margin-left: 20vh;
+  max-width: 500px;
+}
+
+.pulse {
+  transition: transform 1s;
+}
+
+.pulse:hover {
+  transform: scale(1.25);
+}
 .Skills-list .list-item {
   min-width: 250px;
   margin: 20px;
   opacity: 1;
-  transition: opacity 1s ease-in;
+  transition: opacity 2s ease-in;
+}
 
-  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 1.5s; /* Firefox < 16 */
-  -ms-animation: fadein 1.5s; /* Internet Explorer */
-  -o-animation: fadein 1.5s; /* Opera < 12.1 */
-  animation: fadein 1.5s;
+.Skills-capabilities,
+.Skills-list .list-item {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 @keyframes fadein {
@@ -103,6 +118,21 @@
     min-width: 100px;
     margin: 20px;
     opacity: 1;
-    transition: opacity 1s ease-in;
+    transition: opacity 2s ease-in;
+  }
+
+  .Skills-capabilities {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .Skills-capabilities {
+    margin-left: -10vh;
+    margin-top: 40px;
+    max-width: 400px;
+  }
+  .pulse:hover {
+    transform: scale(1.05);
   }
 }

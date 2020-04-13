@@ -1,5 +1,8 @@
 import React from "react";
 import MenuItem from "./SkillsMenuItem";
+import imgEnglish from "../assets/capabilities.png";
+import imgSpanish from "../assets/capacidades.png";
+import i18next from "i18next";
 import "./stylesheets/SkillsMenu.css";
 
 class SkillsMenu extends React.Component {
@@ -12,7 +15,7 @@ class SkillsMenu extends React.Component {
     this.display = this.display.bind(this);
   }
 
-  display(stackNumber, isHovering) {
+  display(stackNumber) {
     this.setState({ stackNumber: stackNumber });
   }
 
@@ -73,7 +76,14 @@ class SkillsMenu extends React.Component {
           </ul>
         </div>
         <div className="SkillsMenu-stack">
-          {this.state.stackNumber && items}
+          {this.state.stackNumber ? (
+            items
+          ) : (
+            <img
+              src={i18next.language == "en" ? imgEnglish : imgSpanish}
+              className="Skills-capabilities pulse"
+            />
+          )}
         </div>
       </div>
     );
