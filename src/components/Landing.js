@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faFacebookF,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 import { withTranslation, Trans } from "react-i18next";
 
 class Landing extends Component {
@@ -34,15 +38,19 @@ class Landing extends Component {
             <Trans i18nKey="landing.bio" />{" "}
           </p>
           <div className="social-icons">
-            {/* <a href={this.landingData.linkedin} target='_blank' rel="noopener noreferrer"> */}
-            {/* <FontAwesomeIcon icon={faLinkedin} /> */}
-            {/* </a> */}
             <a
               href={this.landingData.github}
               target="_blank"
               rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              href={this.landingData.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
               href={this.landingData.facebook}
