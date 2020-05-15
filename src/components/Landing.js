@@ -42,6 +42,7 @@ class Landing extends Component {
               href={this.landingData.github}
               target="_blank"
               rel="noopener noreferrer"
+              style={{ backgroundColor: "#333333" }}
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
@@ -49,6 +50,7 @@ class Landing extends Component {
               href={this.landingData.linkedin}
               target="_blank"
               rel="noopener noreferrer"
+              style={{ backgroundColor: "#007BB5" }}
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
@@ -56,6 +58,7 @@ class Landing extends Component {
               href={this.landingData.facebook}
               target="_blank"
               rel="noopener noreferrer"
+              style={{ backgroundColor: "#45619D" }}
             >
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
