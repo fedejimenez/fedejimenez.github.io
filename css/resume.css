@@ -203,6 +203,7 @@ a:hover,
 a:focus,
 a:active {
   color: var(--main-primary-color);
+  text-decoration: none;
 }
 
 a:focus {
