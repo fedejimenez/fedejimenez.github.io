@@ -1,0 +1,139 @@
+.SkillsMenu-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.Skills-list {
+  padding: 1.5%;
+}
+.Skills-icon {
+  font-size: 4rem;
+  vertical-align: middle;
+}
+.Skills-text {
+  font-size: 2rem;
+}
+
+.pulse {
+  transition: transform 1s;
+}
+
+.pulse:hover {
+  transform: scale(1.25);
+}
+.Skills-list .list-item {
+  min-width: 250px;
+  margin: 20px;
+  opacity: 1;
+  transition: opacity 2s ease-in;
+}
+
+.Skills-capabilities,
+.Skills-list .list-item {
+  animation: fadein 2s;
+}
+
+/* Capablities Image - Dialog modal */
+.ImageComponent {
+  margin-left: 20vh;
+  position: relative;
+  cursor: pointer;
+}
+
+.ImageComponent .small {
+  max-width: 500px;
+}
+
+.ImageComponent .dialog {
+  box-shadow: 1px 2px 37px -8px rgba(31, 31, 31, 1);
+  border: none;
+  position: absolute;
+  left: -80%;
+  top: -20%;
+}
+
+.ImageComponent {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.fadeIn {
+  animation: fadein 1s;
+}
+.fadeOut {
+  animation: fadeout 1s;
+}
+
+/* Animations */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+  .SkillsMenu-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .Skills-list {
+    padding: 1.5%;
+  }
+  .Skills-icon {
+    font-size: 2rem;
+    vertical-align: middle;
+  }
+  .Skills-text {
+    font-size: 1rem;
+  }
+
+  .Skills-list .list-item {
+    min-width: 100px;
+    margin: 20px;
+    opacity: 1;
+    transition: opacity 2s ease-in;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ImageComponent {
+    display: none;
+  }
+}
+
+@media (max-width: 1439px) {
+  .SkillsMenu-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  .ImageComponent {
+    margin-right: 25vh;
+    margin-top: 40px;
+    max-width: 400px;
+  }
+}
