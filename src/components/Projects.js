@@ -38,35 +38,36 @@ class Projects extends Component {
             <Trans>
               {this.projects.map((data, index) => (
                 <div
-                  className={"card pulse " + "card-" + index.toString()}
+                  className={"card pulse card-" + index.toString()}
                   key={index}
                 >
                   <a
                     href={data.link}
-                    className="stretched-link"
+                    className="stretched-link no-underline"
                     target="_blank"
                     rel="noopener noreferrer"
-                  ></a>
-                  <div className="container">
-                    <img
-                      src={"img/" + data.image}
-                      alt="Avatar"
-                      className="image"
-                    />
-                    <div className="middle">
-                      <div className="text">
-                        {i18n_projects[index].technologies}
+                  >
+                    <div className="container">
+                      <img
+                        src={"img/" + data.image}
+                        alt="Avatar"
+                        className="image"
+                      />
+                      <div className="middle">
+                        <div className="text">
+                          {i18n_projects[index].technologies}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title center">
-                      {i18n_projects[index].projectTitle}
-                    </h5>
-                    <p className="card-text">
-                      {i18n_projects[index].projectDetail}{" "}
-                    </p>
-                  </div>
+                    <div className="card-body">
+                      <h5 className="card-title center">
+                        {i18n_projects[index].projectTitle}
+                      </h5>
+                      <p className="card-text">
+                        {i18n_projects[index].projectDetail}{" "}
+                      </p>
+                    </div>
+                  </a>
                   {/* <div className="card-footer">
                                 <small className="text-muted">{data.technologies}</small>
                             </div> */}

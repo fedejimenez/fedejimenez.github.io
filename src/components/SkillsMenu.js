@@ -1,8 +1,5 @@
 import React from "react";
 import MenuItem from "./SkillsMenuItem";
-import imgEnglish from "../assets/capabilities.png";
-import imgSpanish from "../assets/capacidades.png";
-import i18next from "i18next";
 import "./stylesheets/SkillsMenu.css";
 import ImageComponent from "./ImageComponent";
 

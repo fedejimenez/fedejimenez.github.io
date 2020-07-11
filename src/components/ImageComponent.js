@@ -28,7 +28,7 @@ class ImageComponent extends React.Component {
       <div className="ImageComponent">
         <img
           className="small"
-          src={i18next.language == "en" ? imgEnglish : imgSpanish}
+          src={i18next.language === "en" ? imgEnglish : imgSpanish}
           onClick={this.handleShowDialog}
           alt="capabilities"
         />
@@ -39,10 +39,9 @@ class ImageComponent extends React.Component {
         >
           <img
             className="image"
-            src={i18next.language == "en" ? imgEnglish : imgSpanish}
+            src={i18next.language === "en" ? imgEnglish : imgSpanish}
             onClick={this.handleShowDialog}
             alt="capabilities"
-            alt=""
           />
         </dialog>
       </div>
