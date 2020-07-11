@@ -39,6 +39,7 @@
 .ImageComponent {
   margin-left: 20vh;
   position: relative;
+  cursor: pointer;
 }
 
 .ImageComponent .small {
