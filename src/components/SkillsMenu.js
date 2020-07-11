@@ -4,6 +4,7 @@ import imgEnglish from "../assets/capabilities.png";
 import imgSpanish from "../assets/capacidades.png";
 import i18next from "i18next";
 import "./stylesheets/SkillsMenu.css";
+import ImageComponent from "./ImageComponent";
 
 class SkillsMenu extends React.Component {
   constructor(props) {
@@ -52,18 +53,20 @@ class SkillsMenu extends React.Component {
 
       return filteredSkills;
     };
+
     let items = getStack(this.state.stackNumber).map((data, index) => (
       <div key={index} className="Skills-list">
         <p className="list-item">
-          <i className={`Skills-icon devicon-${data.icon}-plain colored`}></i>
-          <span className="Skills-text ml-3">{data.name}</span>
-        </p>
+          <i className={`Skills-icon devicon-${data.icon}-plain colored`}> </i>{" "}
+          <span className="Skills-text ml-3"> {data.name} </span>{" "}
+        </p>{" "}
       </div>
     ));
     return (
       <div className="SkilsMenu">
         <div className="c-menu">
           <ul className="c-list">
+            {" "}
             {stacks.map((stack, index) => (
               <MenuItem
                 key={index}
@@ -72,19 +75,13 @@ class SkillsMenu extends React.Component {
                 skills={this.props.skills}
                 stackNumber={this.display}
               />
-            ))}
-          </ul>
-        </div>
+            ))}{" "}
+          </ul>{" "}
+        </div>{" "}
         <div className="SkillsMenu-stack">
-          {this.state.stackNumber ? (
-            items
-          ) : (
-            <img
-              src={i18next.language == "en" ? imgEnglish : imgSpanish}
-              className="Skills-capabilities pulse"
-            />
-          )}
-        </div>
+          {" "}
+          {this.state.stackNumber ? items : <ImageComponent />}{" "}
+        </div>{" "}
       </div>
     );
   }

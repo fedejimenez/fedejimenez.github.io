@@ -1,5 +1,6 @@
 /* MENU */
-ul {
+
+.SkilsMenu ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -7,14 +8,17 @@ ul {
   flex-wrap: wrap;
   box-sizing: border-box;
 }
+
 .c-menu {
   margin: 100px;
   float: left;
 }
+
 .c-list {
   width: 210px;
   transform: rotate(45deg);
 }
+
 .c-list__item {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
   background: #303030;
@@ -28,39 +32,50 @@ ul {
   position: relative;
   transition: background 1s, color 1s, box-shadow 1s;
 }
+
 .c-list__item:hover {
   box-shadow: 4px 2px 30px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   background: #f7f7f7;
   color: #303030;
 }
+
 .c-list__item:hover .c-list__link {
   color: #303030;
 }
+
 .c-list__item--1 {
   transition: transform 500ms;
 }
+
 .c-list__item--1:hover {
   transform: translate(-10px, -10px);
 }
+
 .c-list__item--2 {
   transition: transform 500ms;
 }
+
 .c-list__item--2:hover {
   transform: translate(10px, -10px);
 }
+
 .c-list__item--3 {
   transition: transform 500ms;
 }
+
 .c-list__item--3:hover {
   transform: translate(-10px, 10px);
 }
+
 .c-list__item--4 {
   transition: transform 500ms;
 }
+
 .c-list__item--4:hover {
   transform: translate(10px, 10px);
 }
+
 .c-list__link,
 .c-list__link:hover {
   color: #f7f7f7;
@@ -77,6 +92,7 @@ ul {
 }
 
 /* MOBILE */
+
 @media (max-width: 768px) {
   .c-menu {
     margin: 100px;
